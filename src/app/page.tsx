@@ -9,6 +9,7 @@ import {
   Fingerprint,
   Github,
   Globe,
+  Linkedin,
   Mail,
   Network,
   Zap,
@@ -89,7 +90,7 @@ function Hero() {
       >
         <motion.div variants={fadeInUp} className="mb-6 flex justify-center">
           <span className="px-3 py-1 text-xs font-mono text-cyan-600 bg-cyan-50 border border-cyan-100 rounded-full">
-            EST. 2026 // VANCOUVER, BC
+            EST. 2025 // VANCOUVER, BC
           </span>
         </motion.div>
 
@@ -175,9 +176,9 @@ function DualCore() {
               <Fingerprint className="w-12 h-12" />
             </div>
             <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center mb-8 text-white">
-              <span className="font-mono text-xl font-bold">M</span>
+              <span className="font-mono text-xl font-bold">J</span>
             </div>
-            <h4 className="text-2xl font-bold text-gray-900 mb-2">Mark</h4>
+            <h4 className="text-2xl font-bold text-gray-900 mb-2">Jongmin Lee</h4>
             <p className="font-mono text-xs text-cyan-600 mb-6">
               ROLE: FOUNDER & ARCHITECT
             </p>
@@ -358,13 +359,13 @@ function Footer() {
             <span className="font-mono font-bold text-gray-900">NORTHPROT</span>
           </div>
           <p className="text-xs text-gray-500 font-mono">
-            © 2026 Northprot Research Lab. Vancouver, BC.
+            © 2025 Northprot Research Lab. Vancouver, BC.
           </p>
         </div>
 
         <div className="flex gap-6">
           <a
-            href="https://github.com/northprot"
+            href="https://github.com/NorthProt-Inc"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-cyan-600 transition-colors"
@@ -372,13 +373,15 @@ function Footer() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://northprot.com"
+            href="https://linkedin.com/company/northprot"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-400 hover:text-cyan-600 transition-colors"
           >
-            <Globe className="w-5 h-5" />
+            <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="mailto:cyan@northprot.com"
+            href="mailto:cyan@gmail.com"
             className="text-gray-400 hover:text-cyan-600 transition-colors"
           >
             <Mail className="w-5 h-5" />
