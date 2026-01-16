@@ -359,7 +359,7 @@ function Footer() {
             <span className="font-mono font-bold text-gray-900">NORTHPROT</span>
           </div>
           <p className="text-xs text-gray-500 font-mono">
-            © 2025 NorthProt Inc. Vancouver, BC.
+            © 2025 NorthProt. Vancouver, BC.
           </p>
         </div>
 
