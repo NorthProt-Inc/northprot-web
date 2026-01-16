@@ -381,6 +381,14 @@ function Footer() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
+            href="https://rnd.northprot.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-cyan-600 transition-colors"
+          >
+            <Globe className="w-5 h-5" />
+          </a>
+          <a
             href="mailto:cyan@gmail.com"
             className="text-gray-400 hover:text-cyan-600 transition-colors"
           >
